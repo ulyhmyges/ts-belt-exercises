@@ -47,6 +47,6 @@
     "src/**/*.ts",
     "eslint.config.js",
     "rollup.config.js",
-    "test"
+    "src/test"
   ]
 }
