@@ -7,3 +7,4 @@
 //   { name: 'Mouse', price: 25, inStock: false },
 //   { name: 'Headphones', price: 50, inStock: true },
 // ];
+export const ArrayFn2 = () => {};

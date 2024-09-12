@@ -9,3 +9,4 @@
 //   { name: 'Keyboard', price: 75, inStock: true },
 //   { name: 'Mouse', price: 20, inStock: true },
 // ];
+export const ArrayFn21 = () => {};

@@ -5,3 +5,4 @@
 //   (n: number) => n > 50,
 //   (n: number) => n % 2 === 0,
 // ];
+export const functionFn10 = () => {};

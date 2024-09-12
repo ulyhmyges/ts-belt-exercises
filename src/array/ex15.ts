@@ -3,3 +3,4 @@
 // import { Product } from "./type";
 
 // const products: Product[] = [];
+export const ArrayFn15 = () => {};

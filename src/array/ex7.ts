@@ -9,3 +9,4 @@
 //   { name: 'Monitor', price: 200, inStock: true },
 //   { name: 'Headphones', price: 50, inStock: false },
 // ];
+export const ArrayFn7 = () => {};

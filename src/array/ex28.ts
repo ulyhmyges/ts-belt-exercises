@@ -11,3 +11,4 @@
 // // // Exemples d'utilisation :
 // // const accumulateTotalQuantity = (acc, product) => acc + product.quantity;
 // // accumulateData(products, accumulateTotalQuantity, 0); // Utilisation
+export const ArrayFn28 = () => {};

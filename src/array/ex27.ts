@@ -12,3 +12,4 @@
 // //   (product) => product.inStock, // En stock
 // // ];
 // // filterProducts(products, conditions); // Utilisation
+export const ArrayFn27 = () => {};

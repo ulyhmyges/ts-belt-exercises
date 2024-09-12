@@ -6,3 +6,4 @@
 //   }
 //   throw new Error('Erreur');
 // };
+export const resultFn16 = () => {};

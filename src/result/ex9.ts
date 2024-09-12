@@ -2,3 +2,4 @@
 
 // const result1 = R.fromNullable(300);
 // const result2 = R.fromNullable(null, 'Error');
+export const resultFn9 = () => {};

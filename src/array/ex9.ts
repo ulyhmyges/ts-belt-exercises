@@ -12,3 +12,4 @@
 //     { name: "Monitor", price: 200, inStock: true },
 //   ],
 // ];
+export const ArrayFn9 = () => {};

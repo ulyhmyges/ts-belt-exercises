@@ -2,3 +2,4 @@
 
 // const option1 = O.fromNullable(300);
 // const option2 = O.fromNullable(400);
+export const optionFn16 = () => {};

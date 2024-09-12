@@ -10,3 +10,4 @@
 //   { name: 'Laptop', price: 1000, inStock: true },
 //   { name: 'Keyboard', price: 75, inStock: true },
 // ];
+export const ArrayFn6 = () => {};

@@ -9,3 +9,4 @@
 // // // Exemples d'utilisation :
 // // const groupByCategory = (product) => product.category;
 // // generateReport(products, groupByCategory); // Utilisation
+export const ArrayFn29 = () => {};

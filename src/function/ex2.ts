@@ -4,3 +4,4 @@
 //   (n: number) => n > 10,
 //   (n: number) => n % 2 === 0,
 // ];
+export const functionFn2 = () => {};

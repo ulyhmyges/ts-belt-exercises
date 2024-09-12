@@ -2,3 +2,4 @@
 
 // const value = '';
 // const option2 = O.fromNullable('Validé');
+export const optionFn7 = () => {};

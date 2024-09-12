@@ -9,3 +9,4 @@
 // // Exemples d'utilisation :
 // // const filterInStock = (product) => product.inStock; // Filtre basé sur le stock
 // // calculateTotalPrice(products, filterInStock); // Utilisation
+export const ArrayFn26 = () => {};

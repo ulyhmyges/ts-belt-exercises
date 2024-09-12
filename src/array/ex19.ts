@@ -6,3 +6,4 @@
 //   { name: 'Laptop', price: 1000, inStock: true },
 //   { name: 'Mouse', price: 25, inStock: false },
 // ];
+export const ArrayFn19 = () => {};

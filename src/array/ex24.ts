@@ -8,3 +8,4 @@
 //   { name: 'Monitor', price: 200, category: 'Electronics', quantity: 1 },
 //   { name: 'Keyboard', price: 75, category: 'Accessories', quantity: 3 },
 // ];
+export const ArrayFn24 = () => {};

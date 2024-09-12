@@ -2,3 +2,4 @@
 
 // const value1 = 100;
 // const value2 = 50;
+export const optionFn3 = () => {};
