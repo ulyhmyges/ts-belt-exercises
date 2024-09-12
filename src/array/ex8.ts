@@ -31,3 +31,8 @@ export const ArrayFn81 = <T extends { price: number }>(
     A.getIndexBy((_v) => _v.price < _price),
     O.getWithDefault(Number(-1))
   );
+
+export const ArrayFn82 = <T extends { price: number }>(
+  arr: T[],
+  index: number
+) => pipe(arr, A.get(index), O.getWithDefault({ price: 0 }));

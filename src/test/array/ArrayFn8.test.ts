@@ -1,4 +1,4 @@
-import { ArrayFn8, ArrayFn81, products } from "../../array/ex8";
+import { ArrayFn8, ArrayFn81, ArrayFn82, products } from "../../array/ex8";
 
 describe("ArrayFn8 Tests", () => {
   test("Check - value - ArrayFn8 function", () => {
@@ -23,5 +23,19 @@ describe("ArrayFn8 Tests", () => {
   test("Check - DefaultValue - ArrayFn81 function", () => {
     const result = ArrayFn81(products, 10);
     expect(result).toStrictEqual(-1);
+  });
+
+  test("Check - value - ArrayFn82 function", () => {
+    const result = ArrayFn82(products, 2);
+    expect(result).toStrictEqual({
+      inStock: true,
+      name: "Keyboard",
+      price: 75,
+    });
+  });
+
+  test("Check - DefaultValue - ArrayFn82 function", () => {
+    const result = ArrayFn82(products, 10);
+    expect(result).toStrictEqual({ price: 0 });
   });
 });
