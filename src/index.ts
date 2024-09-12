@@ -1,3 +1,4 @@
+import { ArrayFn1 } from "./array/ex1";
 import { Product } from "./array/type";
 import { A } from "@mobily/ts-belt";
 
