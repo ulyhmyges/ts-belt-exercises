@@ -1,18 +1,17 @@
+import { ArrayFn8, products } from "../../array/ex8";
+
 describe("ArrayFn8 Tests", () => {
-  test("Check ArrayFn8 function", () => {
-    const result = ArrayFn8(inventory1, inventory2);
-    expect(result).toStrictEqual([
-      [
-        { name: "Laptop", price: 1000, inStock: true },
-        { name: "Mouse", price: 25, inStock: false },
-      ],
-      [{ name: "Keyboard", price: 75, inStock: true }],
-      [
-        { name: "Laptop", price: 1000, inStock: true },
-        { name: "Mouse", price: 25, inStock: false },
-        { name: "Keyboard", price: 75, inStock: true },
-        { name: "Monitor", price: 200, inStock: false },
-      ],
-    ]);
+  test("Check - value - ArrayFn8 function", () => {
+    const result = ArrayFn8(products, "Laptop");
+    expect(result).toStrictEqual({
+      name: "Laptop",
+      price: 1000,
+      inStock: true,
+    });
+  });
+
+  test("Check - DefaultValue - ArrayFn8 function", () => {
+    const result = ArrayFn8(products, "toto");
+    expect(result).toStrictEqual({ name: "" });
   });
 });
