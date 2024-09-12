@@ -1,1 +1,1 @@
-export type Product = { name: string, price: number, inStock: boolean };
+export type Product = { name: string; price: number; inStock: boolean };
