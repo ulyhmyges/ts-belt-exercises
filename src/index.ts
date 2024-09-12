@@ -1,5 +1,5 @@
-import { ArrayFn2 } from "./array/ex2";
 import { Product } from "./array/type";
+import { A } from "@mobily/ts-belt";
 
 const products: Product[] = [
   { name: "Laptop", price: 1000, inStock: true },
@@ -7,4 +7,3 @@ const products: Product[] = [
   { name: "Headphones", price: 50, inStock: true },
 ];
 
-console.log(ArrayFn2(products));
