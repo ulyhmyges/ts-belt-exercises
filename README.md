@@ -33,7 +33,7 @@ pnpm build:dev
 In a separate terminal, start the development server:
 
 ```bash
-pnpm run:dev
+pnpm start:dev
 ```
 
 This will watch for changes and automatically rebuild the code as you work through the exercises.
