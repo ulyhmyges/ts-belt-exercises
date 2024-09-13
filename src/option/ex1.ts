@@ -28,3 +28,11 @@ export const optionFn1 = (item: string) => {
     "No Item"
   );
 };
+
+export const optionFn12 = (item: string) =>
+  pipe(
+    item,
+    O.fromNullable,
+    O.filter((e) => e.includes("L")),
+    O.getWithDefault<string>("No Item")
+  );
