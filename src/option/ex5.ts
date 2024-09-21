@@ -18,5 +18,6 @@ export const optionFn5 = () => {
       O.filter((val) => val > 100),
       O.getExn
     );
-  return pipe(R.fromExecution(fn), R.isError);
+
+  return fn();
 };
