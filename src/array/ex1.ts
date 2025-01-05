@@ -19,7 +19,7 @@ export const ArrayFn1 = (arr: Product[]) => {
   return [
     pipe(
       arr, // Apply first function
-      A.length, // Then apply second function
+      A.length // Then apply second function
     ),
     allInStock(arr),
   ];
